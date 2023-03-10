@@ -69,7 +69,7 @@ header {
 }
 
 .website-name h1 {
-  margin-inline: 30px;
+  margin-inline: 30px 10px;
   color: #fff;
 }
 
@@ -248,5 +248,11 @@ section {
   .hero-section {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .website-name h1 {
+    width: 160px;
   }
 }
